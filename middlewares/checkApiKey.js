@@ -11,7 +11,6 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-// In-memory store to keep track of notified API keys and their counts
 const apiKeyRequests = new Map();
 
 // Function to send email notification
