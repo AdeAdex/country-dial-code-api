@@ -2,6 +2,8 @@ const axios = require('axios');
 const nodemailer = require('nodemailer');
 require('dotenv').config();
 
+// console.log("GAMEHUB_URL:", process.env.GAMEHUB_URL);
+
 // Configure Nodemailer
 const transporter = nodemailer.createTransport({
   service: 'gmail',
@@ -68,7 +70,7 @@ const checkApiKey = async (req, res, next) => {
     }
   } catch (error) {
     console.error("Error verifying API key:", error.message);
-    res.status(500).json({ message: "Failed to verify API key" });
+    res.status(500).json({ message: "Failed to verify API key at country-dial-code api" });
   }
 };
 
