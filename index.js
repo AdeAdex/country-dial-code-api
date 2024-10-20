@@ -34,7 +34,7 @@ app.get("/", (req, res) => {
       },
       {
         method: "GET",
-        path: "/api/countries/:code",
+        path: "/api/dial_code",
         description: "Retrieve detailed information about a specific country dial code, based on the provided country code (e.g., 'US' for the United States)."
       }
     ],
