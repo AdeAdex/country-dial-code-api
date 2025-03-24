@@ -1755,12 +1755,12 @@ const allCountryAPI = (req, res) => {
       id: 72,
       country: "Belize",
       states: [
-        "Belize",
-        "Cayo",
-        "Corozal",
-        "Orange Walk",
-        "Stann Creek",
-        "Toledo",
+        "Belize District",
+        "Cayo District",
+        "Corozal District",
+        "Orange Walk District",
+        "Stann Creek District",
+        "Toledo District",
       ],
     },
     {
@@ -2247,26 +2247,15 @@ const allCountryAPI = (req, res) => {
 
     {
       id: 101,
-      country: "Belize",
-      states: [
-        "Belize District",
-        "Cayo District",
-        "Corozal District",
-        "Orange Walk District",
-        "Stann Creek District",
-        "Toledo District",
-      ],
+      country: "Vatican City (Holy See)",
+      states: ["Vatican City"],
     },
     {
       id: 102,
-      country: "Brunei",
-      states: [
-        "Brunei-Muara",
-        "Belait",
-        "Tutong",
-        "Limbang", // Note: Limbang is administratively part of Malaysia but has cultural ties to Brunei.
-      ],
+      country: "Western Sahara (Disputed status)",
+      states: ["Aousserd", "Boujdour", "Dakhla", "El Ayoun", "Smara"],
     },
+    
     {
       id: 103,
       country: "Gabon",
@@ -2996,11 +2985,20 @@ const allCountryAPI = (req, res) => {
         "Western",
       ],
     },
+
     {
       id: 144,
-      country: "Vanuatu",
-      states: ["Efate", "Malampa", "Penama", "Sanma", "Shefa", "Tafea"],
+      country: "New Caledonia (Special Collectivity of France)",
+      states: [
+        "Lifou",
+        "Maré",
+        "Ouvéa",
+        "Grande Terre",
+        "Îles Loyauté",
+        "Île des Pins",
+      ],
     },
+    
     {
       id: 145,
       country: "Liechtenstein",
@@ -3030,28 +3028,8 @@ const allCountryAPI = (req, res) => {
         "Monte Carlo",
       ],
     },
-    {
-      id: 147,
-      country: "Vatican City (Holy See)",
-      states: ["Vatican City"],
-    },
-    {
-      id: 148,
-      country: "Western Sahara (Disputed status)",
-      states: ["Aousserd", "Boujdour", "Dakhla", "El Ayoun", "Smara"],
-    },
-    {
-      id: 149,
-      country: "New Caledonia (Special Collectivity of France)",
-      states: [
-        "Lifou",
-        "Maré",
-        "Ouvéa",
-        "Grande Terre",
-        "Îles Loyauté",
-        "Île des Pins",
-      ],
-    },
+    
+    
 
     // First 150 countries
   ];
