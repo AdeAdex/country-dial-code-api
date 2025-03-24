@@ -1188,8 +1188,8 @@ const allCountryAPI = (req, res) => {
         "Jigawa",
         "Kaduna",
         "Kano",
-        "Kogi",
-        "Kolkata",
+        "Katsina",
+        "Kebbi",
         "Kogi",
         "Kwara",
         "Lagos",
@@ -1206,6 +1206,7 @@ const allCountryAPI = (req, res) => {
         "Yobe",
         "Zamfara"
       ],
+      
     },
     {
       id: 43,
