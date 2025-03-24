@@ -1,4 +1,3 @@
-
 // controllers/countryController.js
 const allCountryAPI = (req, res) => {
   const allCountries = [
@@ -55,7 +54,7 @@ const allCountryAPI = (req, res) => {
         "Washington",
         "West Virginia",
         "Wisconsin",
-        "Wyoming"
+        "Wyoming",
       ],
     },
     {
@@ -86,7 +85,7 @@ const allCountryAPI = (req, res) => {
         "Western Australia",
       ],
     },
-    { 
+    {
       id: 4,
       country: "Germany",
       states: [
@@ -103,7 +102,7 @@ const allCountryAPI = (req, res) => {
         "Saarland",
         "Saxony",
         "Saxony-Anhalt",
-        "Thuringia"
+        "Thuringia",
       ],
     },
     {
@@ -225,12 +224,7 @@ const allCountryAPI = (req, res) => {
     {
       id: 11,
       country: "United Kingdom",
-      states: [
-        "England",
-        "Scotland",
-        "Wales",
-        "Northern Ireland"
-      ],
+      states: ["England", "Scotland", "Wales", "Northern Ireland"],
     },
     {
       id: 12,
@@ -282,7 +276,7 @@ const allCountryAPI = (req, res) => {
         "Oita",
         "Miyazaki",
         "Kagoshima",
-        "Okinawa"
+        "Okinawa",
       ],
     },
     {
@@ -305,7 +299,7 @@ const allCountryAPI = (req, res) => {
         "Jeonnam",
         "Gyeongbuk",
         "Gyeongnam",
-        "Jeju"
+        "Jeju",
       ],
     },
     {
@@ -339,7 +333,7 @@ const allCountryAPI = (req, res) => {
         "Tripura",
         "Uttar Pradesh",
         "Uttarakhand",
-        "West Bengal"
+        "West Bengal",
       ],
     },
     {
@@ -376,7 +370,7 @@ const allCountryAPI = (req, res) => {
         "Gansu",
         "Qinghai",
         "Ningxia",
-        "Xinjiang"
+        "Xinjiang",
       ],
     },
     {
@@ -409,7 +403,7 @@ const allCountryAPI = (req, res) => {
         "Santa Catarina",
         "São Paulo",
         "Sergipe",
-        "Tocantins"
+        "Tocantins",
       ],
     },
     {
@@ -447,7 +441,7 @@ const allCountryAPI = (req, res) => {
         "Tlaxcala",
         "Veracruz",
         "Yucatán",
-        "Zacatecas"
+        "Zacatecas",
       ],
     },
     {
@@ -520,7 +514,7 @@ const allCountryAPI = (req, res) => {
         "Vologda",
         "Voronezh",
         "Yaroslavl",
-        "Zabaykalsky"
+        "Zabaykalsky",
       ],
     },
     {
@@ -535,7 +529,7 @@ const allCountryAPI = (req, res) => {
         "Mpumalanga",
         "Northern Cape",
         "North West",
-        "Western Cape"
+        "Western Cape",
       ],
     },
     {
@@ -565,7 +559,7 @@ const allCountryAPI = (req, res) => {
         "Santa Fe",
         "Santiago del Estero",
         "Tierra del Fuego",
-        "Tucumán"
+        "Tucumán",
       ],
     },
 
@@ -656,7 +650,7 @@ const allCountryAPI = (req, res) => {
         "Van",
         "Yalova",
         "Yozgat",
-        "Zonguldak"
+        "Zonguldak",
       ],
     },
     {
@@ -696,7 +690,7 @@ const allCountryAPI = (req, res) => {
         "Tolima",
         "Valle del Cauca",
         "Vaupés",
-        "Vichada"
+        "Vichada",
       ],
     },
     {
@@ -727,7 +721,7 @@ const allCountryAPI = (req, res) => {
         "San Martín",
         "Tacna",
         "Tumbes",
-        "Ucayali"
+        "Ucayali",
       ],
     },
     {
@@ -755,7 +749,7 @@ const allCountryAPI = (req, res) => {
         "Táchira",
         "Trujillo",
         "Yaracuy",
-        "Zulia"
+        "Zulia",
       ],
     },
     {
@@ -775,7 +769,7 @@ const allCountryAPI = (req, res) => {
         "Los Ríos",
         "Los Lagos",
         "Aysén",
-        "Magallanes"
+        "Magallanes",
       ],
     },
     {
@@ -807,7 +801,7 @@ const allCountryAPI = (req, res) => {
         "Volyn",
         "Zakarpattia",
         "Zaporizhzhia",
-        "Zhytomyr"
+        "Zhytomyr",
       ],
     },
     {
@@ -828,7 +822,7 @@ const allCountryAPI = (req, res) => {
         "Świętokrzyskie",
         "Warmińsko-Mazurskie",
         "Wielkopolskie",
-        "Zachodniopomorskie"
+        "Zachodniopomorskie",
       ],
     },
     {
@@ -850,7 +844,7 @@ const allCountryAPI = (req, res) => {
         "Gävleborg",
         "Västernorrland",
         "Västerbotten",
-        "Norrbotten"
+        "Norrbotten",
       ],
     },
     {
@@ -871,7 +865,7 @@ const allCountryAPI = (req, res) => {
         "Trøndelag",
         "Nordland",
         "Troms",
-        "Finnmark"
+        "Finnmark",
       ],
     },
     {
@@ -892,12 +886,11 @@ const allCountryAPI = (req, res) => {
         "Ostrobothnia",
         "North Ostrobothnia",
         "Kainuu",
-        "Lapland"
+        "Lapland",
       ],
     },
 
     // First 30 countries
-
 
     {
       id: 31,
@@ -907,7 +900,7 @@ const allCountryAPI = (req, res) => {
         "Midtjylland",
         "Nordjylland",
         "Syddanmark",
-        "Sjælland"
+        "Sjælland",
       ],
     },
     {
@@ -922,7 +915,7 @@ const allCountryAPI = (req, res) => {
         "Steiermark",
         "Tirol",
         "Vorarlberg",
-        "Wien"
+        "Wien",
       ],
     },
     {
@@ -934,7 +927,7 @@ const allCountryAPI = (req, res) => {
         "Betio",
         "Kiritimati",
         "Tabiteuea",
-        "Teraina"
+        "Teraina",
       ],
     },
     {
@@ -966,7 +959,7 @@ const allCountryAPI = (req, res) => {
         "Valais",
         "Vaud",
         "Zug",
-        "Zurich"
+        "Zurich",
       ],
     },
     {
@@ -988,7 +981,7 @@ const allCountryAPI = (req, res) => {
         "Tipperary",
         "Wexford",
         "Westmeath",
-        "Wicklow"
+        "Wicklow",
       ],
     },
     {
@@ -1007,7 +1000,7 @@ const allCountryAPI = (req, res) => {
         "Meneng",
         "Nauru",
         "Uaboe",
-        "Yaren"
+        "Yaren",
       ],
     },
     {
@@ -1028,19 +1021,13 @@ const allCountryAPI = (req, res) => {
         "Taranaki",
         "Waikato",
         "Wellington",
-        "West Coast"
+        "West Coast",
       ],
     },
     {
       id: 38,
       country: "Singapore",
-      states: [
-        "Central",
-        "East",
-        "North",
-        "North-East",
-        "West"
-      ],
+      states: ["Central", "East", "North", "North-East", "West"],
     },
     {
       id: 39,
@@ -1059,7 +1046,7 @@ const allCountryAPI = (req, res) => {
         "Sarawak",
         "Wilayah Persekutuan Kuala Lumpur",
         "Wilayah Persekutuan Labuan",
-        "Wilayah Persekutuan Putrajaya"
+        "Wilayah Persekutuan Putrajaya",
       ],
     },
     {
@@ -1146,7 +1133,7 @@ const allCountryAPI = (req, res) => {
         "Zambales",
         "Zamboanga del Norte",
         "Zamboanga del Sur",
-        "Zamboanga Sibugay"
+        "Zamboanga Sibugay",
       ],
     },
 
@@ -1162,7 +1149,7 @@ const allCountryAPI = (req, res) => {
         "Niutao",
         "Nui",
         "Vaitupu",
-        "Wallis"
+        "Wallis",
       ],
     },
     {
@@ -1204,9 +1191,8 @@ const allCountryAPI = (req, res) => {
         "Sokoto",
         "Taraba",
         "Yobe",
-        "Zamfara"
+        "Zamfara",
       ],
-      
     },
     {
       id: 43,
@@ -1231,7 +1217,7 @@ const allCountryAPI = (req, res) => {
         "Qena",
         "Luxor",
         "Matruh",
-        "New Valley"
+        "New Valley",
       ],
     },
     {
@@ -1267,7 +1253,7 @@ const allCountryAPI = (req, res) => {
         "South Khorasan",
         "Tehran",
         "Yazd",
-        "Zanjan"
+        "Zanjan",
       ],
     },
     {
@@ -1312,20 +1298,13 @@ const allCountryAPI = (req, res) => {
         "Udon Thani",
         "Uttaradit",
         "Yala",
-        "Yasothon"
+        "Yasothon",
       ],
     },
     {
       id: 46,
       country: "Vanuatu",
-      states: [
-        "Malampa",
-        "Penama",
-        "Sanma",
-        "Shefa",
-        "Tafea",
-        "Torba"
-      ],
+      states: ["Malampa", "Penama", "Sanma", "Shefa", "Tafea", "Torba"],
     },
     {
       id: 47,
@@ -1337,7 +1316,7 @@ const allCountryAPI = (req, res) => {
         "Gilgit-Baltistan",
         "Khyber Pakhtunkhwa",
         "Punjab",
-        "Sindh"
+        "Sindh",
       ],
     },
     {
@@ -1355,7 +1334,7 @@ const allCountryAPI = (req, res) => {
         "Najran",
         "Al Bahah",
         "Al Jawf",
-        "Northern Borders"
+        "Northern Borders",
       ],
     },
     {
@@ -1368,7 +1347,7 @@ const allCountryAPI = (req, res) => {
         "Ajman",
         "Umm Al-Quwain",
         "Fujairah",
-        "Ras Al Khaimah"
+        "Ras Al Khaimah",
       ],
     },
     {
@@ -1388,7 +1367,7 @@ const allCountryAPI = (req, res) => {
         "Sulaymaniyah",
         "Wasit",
         "Erbil",
-        "Karbala"
+        "Karbala",
       ],
     },
 
@@ -1407,7 +1386,7 @@ const allCountryAPI = (req, res) => {
         "Ma'an",
         "Ajloun",
         "Tafilah",
-        "Jerar"
+        "Jerar",
       ],
     },
     {
@@ -1418,7 +1397,7 @@ const allCountryAPI = (req, res) => {
         "Mount Lebanon",
         "North Governorate",
         "South Governorate",
-        "Bekaa"
+        "Bekaa",
       ],
     },
     {
@@ -1435,7 +1414,7 @@ const allCountryAPI = (req, res) => {
         "Rif Dimashq",
         "Quneitra",
         "Idlib",
-        "Tartus"
+        "Tartus",
       ],
     },
     {
@@ -1450,19 +1429,13 @@ const allCountryAPI = (req, res) => {
         "Buraimi",
         "Musandam",
         "North Sharqiyah",
-        "South Sharqiyah"
+        "South Sharqiyah",
       ],
     },
     {
       id: 55,
       country: "Kuwait",
-      states: [
-        "Al Asimah",
-        "Hawalli",
-        "Mubarak Al-Kabeer",
-        "Ahmadi",
-        "Jahra"
-      ],
+      states: ["Al Asimah", "Hawalli", "Mubarak Al-Kabeer", "Ahmadi", "Jahra"],
     },
     {
       id: 56,
@@ -1471,7 +1444,7 @@ const allCountryAPI = (req, res) => {
         "Capital Governorate",
         "Muharraq",
         "Northern Governorate",
-        "Southern Governorate"
+        "Southern Governorate",
       ],
     },
     {
@@ -1487,7 +1460,7 @@ const allCountryAPI = (req, res) => {
         "Al Shamal",
         "Madinat ash Shamal",
         "Al Jufairah",
-        "Al Zubara"
+        "Al Zubara",
       ],
     },
     {
@@ -1502,7 +1475,7 @@ const allCountryAPI = (req, res) => {
         "North Western Province",
         "North Central Province",
         "Uva Province",
-        "Sabaragamuwa Province"
+        "Sabaragamuwa Province",
       ],
     },
     {
@@ -1515,7 +1488,7 @@ const allCountryAPI = (req, res) => {
         "Gandaki",
         "Lumbini",
         "Karnali",
-        "Sudurpashchim"
+        "Sudurpashchim",
       ],
     },
     {
@@ -1533,413 +1506,401 @@ const allCountryAPI = (req, res) => {
         "Zhemgang",
         "Samdrup Jongkhar",
         "Trashigang",
-        "Trashiyangtse"
+        "Trashiyangtse",
       ],
     },
 
     // First 60 countries
 
-   {
-    id: 61,
-    country: "Afghanistan",
-    states: [
-      "Badakhshan",
-      "Badghis",
-      "Baghlan",
-      "Balkh",
-      "Bamyan",
-      "Daykundi",
-      "Farah",
-      "Faryab",
-      "Ghazni",
-      "Ghor",
-      "Helmand",
-      "Herat",
-      "Jowzjan",
-      "Kabul",
-      "Kandahar",
-      "Kapisa",
-      "Khost",
-      "Kunar",
-      "Kunduz",
-      "Laghman",
-      "Logar",
-      "Nangarhar",
-      "Nimroz",
-      "Nuristan",
-      "Paktia",
-      "Paktika",
-      "Panjsher",
-      "Samangan",
-      "Sar-e Pol",
-      "Takhar",
-      "Urozgan",
-      "Wardak",
-      "Zabul"
-    ],
-  },
-  {
-    id: 62,
-    country: "Albania",
-    states: [
-      "Berat",
-      "Diber",
-      "Durres",
-      "Elbasan",
-      "Shkoder",
-      "Fier",
-      "Korçe",
-      "Tirane"
-    ],
-  },
-  {
-    id: 63,
-    country: "Algeria",
-    states: [
-      "Adrar",
-      "Chlef",
-      "Laghouat",
-      "Oum El Bouaghi",
-      "Batna",
-      "Béjaïa",
-      "Biskra",
-      "Bordj Bou Arréridj",
-      "Bouira",
-      "Tamanrasset",
-      "Tébessa",
-      "Tlemcen",
-      "Tiaret",
-      "Tizi Ouzou",
-      "Algiers",
-      "Djelfa",
-      "Jijel",
-      "Sétif",
-      "Saïda",
-      "Skikda",
-      "Sidi Bel Abbès",
-      "Annaba",
-      "Guelma",
-      "Constantine",
-      "Médéa",
-      "Mostaganem",
-      "M'sila",
-      "Mascara",
-      "Ouargla",
-      "Oran",
-      "El Bayadh",
-      "El Oued",
-      "El M'ghair",
-      "El Menia",
-      "Touggourt",
-      "Djanet",
-      "In Salah",
-      "In Guezzam",
-      "El Agheila",
-      "Illizi",
-      "Tindouf"
-    ],
-  },
-  {
-    id: 64,
-    country: "Andorra",
-    states: [
-      "Andorra la Vella",
-      "Escaldes-Engordany",
-      "Encamp",
-      "Ordino",
-      "Canillo",
-      "Sant Julià de Lòria"
-    ],
-  },
-  {
-    id: 65,
-    country: "Angola",
-    states: [
-      "Bengo",
-      "Benguela",
-      "Bié",
-      "Cabinda",
-      "Cuando Cubango",
-      "Cuanza Norte",
-      "Cuanza Sul",
-      "Cunene",
-      "Huambo",
-      "Huíla",
-      "Luanda",
-      "Lunda Norte",
-      "Lunda Sul",
-      "Malanje",
-      "Moxico",
-      "Namibe",
-      "Uíge",
-      "Zaire"
-    ],
-  },
-  {
-    id: 66,
-    country: "Antigua and Barbuda",
-    states: [
-      "Saint John's",
-      "Saint George",
-      "Saint Peter",
-      "Saint Paul",
-      "Saint Mary",
-      "Saint Philip",
-      "Barbuda"
-    ],
-  },
-  {
-    id: 67,
-    country: "Armenia",
-    states: [
-      "Aragatsotn",
-      "Ararat",
-      "Armavir",
-      "Gegharkunik",
-      "Kotayk",
-      "Lori",
-      "Shirak",
-      "Syunik",
-      "Vayots Dzor",
-      "Yerevan"
-    ],
-  },
-  {
-    id: 68,
-    country: "Azerbaijan",
-    states: [
-      "Absheron",
-      "Agdam",
-      "Agjabadi",
-      "Agstafa",
-      "Agsu",
-      "Astara",
-      "Baku",
-      "Beylagan",
-      "Bilasuvar",
-      "Ganja",
-      "Goranboy",
-      "Goychay",
-      "Goygol",
-      "Lankaran",
-      "Lankaran",
-      "Mingachevir",
-      "Naftalan",
-      "Sabirabad",
-      "Salyan",
-      "Shaki",
-      "Shamkir",
-      "Shusha",
-      "Sumqayit",
-      "Tartar",
-      "Tovuz",
-      "Yardimli"
-    ],
-  },
-  {
-    id: 69,
-    country: "Bahamas",
-    states: [
-      "Acklins and Crooked Islands",
-      "Berry Islands",
-      "Bimini",
-      "Cat Island",
-      "Exuma",
-      "Grand Bahama",
-      "Inagua",
-      "Long Island",
-      "New Providence",
-      "Ragged Island",
-      "San Salvador and Rum Cay"
-    ],
-  },
-  {
-    id: 70,
-    country: "Barbados",
-    states: [
-      "Christ Church",
-      "Saint Andrew",
-      "Saint George",
-      "Saint James",
-      "Saint John",
-      "Saint Joseph",
-      "Saint Lucy",
-      "Saint Michael",
-      "Saint Peter",
-      "Saint Philip",
-      "Saint Thomas"
-    ],
-  },
+    {
+      id: 61,
+      country: "Afghanistan",
+      states: [
+        "Badakhshan",
+        "Badghis",
+        "Baghlan",
+        "Balkh",
+        "Bamyan",
+        "Daykundi",
+        "Farah",
+        "Faryab",
+        "Ghazni",
+        "Ghor",
+        "Helmand",
+        "Herat",
+        "Jowzjan",
+        "Kabul",
+        "Kandahar",
+        "Kapisa",
+        "Khost",
+        "Kunar",
+        "Kunduz",
+        "Laghman",
+        "Logar",
+        "Nangarhar",
+        "Nimroz",
+        "Nuristan",
+        "Paktia",
+        "Paktika",
+        "Panjsher",
+        "Samangan",
+        "Sar-e Pol",
+        "Takhar",
+        "Urozgan",
+        "Wardak",
+        "Zabul",
+      ],
+    },
+    {
+      id: 62,
+      country: "Albania",
+      states: [
+        "Berat",
+        "Diber",
+        "Durres",
+        "Elbasan",
+        "Shkoder",
+        "Fier",
+        "Korçe",
+        "Tirane",
+      ],
+    },
+    {
+      id: 63,
+      country: "Algeria",
+      states: [
+        "Adrar",
+        "Chlef",
+        "Laghouat",
+        "Oum El Bouaghi",
+        "Batna",
+        "Béjaïa",
+        "Biskra",
+        "Bordj Bou Arréridj",
+        "Bouira",
+        "Tamanrasset",
+        "Tébessa",
+        "Tlemcen",
+        "Tiaret",
+        "Tizi Ouzou",
+        "Algiers",
+        "Djelfa",
+        "Jijel",
+        "Sétif",
+        "Saïda",
+        "Skikda",
+        "Sidi Bel Abbès",
+        "Annaba",
+        "Guelma",
+        "Constantine",
+        "Médéa",
+        "Mostaganem",
+        "M'sila",
+        "Mascara",
+        "Ouargla",
+        "Oran",
+        "El Bayadh",
+        "El Oued",
+        "El M'ghair",
+        "El Menia",
+        "Touggourt",
+        "Djanet",
+        "In Salah",
+        "In Guezzam",
+        "El Agheila",
+        "Illizi",
+        "Tindouf",
+      ],
+    },
+    {
+      id: 64,
+      country: "Andorra",
+      states: [
+        "Andorra la Vella",
+        "Escaldes-Engordany",
+        "Encamp",
+        "Ordino",
+        "Canillo",
+        "Sant Julià de Lòria",
+      ],
+    },
+    {
+      id: 65,
+      country: "Angola",
+      states: [
+        "Bengo",
+        "Benguela",
+        "Bié",
+        "Cabinda",
+        "Cuando Cubango",
+        "Cuanza Norte",
+        "Cuanza Sul",
+        "Cunene",
+        "Huambo",
+        "Huíla",
+        "Luanda",
+        "Lunda Norte",
+        "Lunda Sul",
+        "Malanje",
+        "Moxico",
+        "Namibe",
+        "Uíge",
+        "Zaire",
+      ],
+    },
+    {
+      id: 66,
+      country: "Antigua and Barbuda",
+      states: [
+        "Saint John's",
+        "Saint George",
+        "Saint Peter",
+        "Saint Paul",
+        "Saint Mary",
+        "Saint Philip",
+        "Barbuda",
+      ],
+    },
+    {
+      id: 67,
+      country: "Armenia",
+      states: [
+        "Aragatsotn",
+        "Ararat",
+        "Armavir",
+        "Gegharkunik",
+        "Kotayk",
+        "Lori",
+        "Shirak",
+        "Syunik",
+        "Vayots Dzor",
+        "Yerevan",
+      ],
+    },
+    {
+      id: 68,
+      country: "Azerbaijan",
+      states: [
+        "Absheron",
+        "Agdam",
+        "Agjabadi",
+        "Agstafa",
+        "Agsu",
+        "Astara",
+        "Baku",
+        "Beylagan",
+        "Bilasuvar",
+        "Ganja",
+        "Goranboy",
+        "Goychay",
+        "Goygol",
+        "Lankaran",
+        "Lankaran",
+        "Mingachevir",
+        "Naftalan",
+        "Sabirabad",
+        "Salyan",
+        "Shaki",
+        "Shamkir",
+        "Shusha",
+        "Sumqayit",
+        "Tartar",
+        "Tovuz",
+        "Yardimli",
+      ],
+    },
+    {
+      id: 69,
+      country: "Bahamas",
+      states: [
+        "Acklins and Crooked Islands",
+        "Berry Islands",
+        "Bimini",
+        "Cat Island",
+        "Exuma",
+        "Grand Bahama",
+        "Inagua",
+        "Long Island",
+        "New Providence",
+        "Ragged Island",
+        "San Salvador and Rum Cay",
+      ],
+    },
+    {
+      id: 70,
+      country: "Barbados",
+      states: [
+        "Christ Church",
+        "Saint Andrew",
+        "Saint George",
+        "Saint James",
+        "Saint John",
+        "Saint Joseph",
+        "Saint Lucy",
+        "Saint Michael",
+        "Saint Peter",
+        "Saint Philip",
+        "Saint Thomas",
+      ],
+    },
 
     // First 70 countries
 
-  {
-    id: 71,
-    country: "Belarus",
-    states: [
-      "Brest",
-      "Gomel",
-      "Grodno",
-      "Minsk",
-      "Mogilev",
-      "Vitebsk"
-    ],
-  },
-  {
-    id: 72,
-    country: "Belize",
-    states: [
-      "Belize",
-      "Cayo",
-      "Corozal",
-      "Orange Walk",
-      "Stann Creek",
-      "Toledo"
-    ],
-  },
-  {
-    id: 73,
-    country: "Benin",
-    states: [
-      "Alibori",
-      "Atakora",
-      "Atlantique",
-      "Borgou",
-      "Collines",
-      "Donga",
-      "Kouffo",
-      "Littoral",
-      "Mono",
-      "Ouémé",
-      "Plateau",
-      "Zou"
-    ],
-  },
-  {
-    id: 74,
-    country: "Bolivia",
-    states: [
-      "Beni",
-      "Chuquisaca",
-      "Cochabamba",
-      "La Paz",
-      "Oruro",
-      "Pando",
-      "Potosí",
-      "Santa Cruz",
-      "Tarija"
-    ],
-  },
-  {
-    id: 75,
-    country: "Bosnia and Herzegovina",
-    states: [
-      "Federation of Bosnia and Herzegovina",
-      "Republika Srpska",
-      "Brčko District"
-    ],
-  },
-  {
-    id: 76,
-    country: "Botswana",
-    states: [
-      "Central",
-      "Gaborone",
-      "Ghanzi",
-      "Kgalagadi",
-      "Kgatleng",
-      "Kweneng",
-      "Ngamiland",
-      "North-East",
-      "South-East",
-      "Southern"
-    ],
-  },
-  {
-    id: 77,
-    country: "Brunei",
-    states: [
-      "Brunei-Muara",
-      "Belait",
-      "Tutong",
-      "Lumut"
-    ],
-  },
-  {
-    id: 78,
-    country: "Bulgaria",
-    states: [
-      "Blagoevgrad",
-      "Burgas",
-      "Dobrich",
-      "Gabrovo",
-      "Haskovo",
-      "Kardzhali",
-      "Kyustendil",
-      "Lovech",
-      "Montana",
-      "Pazardzhik",
-      "Pernik",
-      "Pleven",
-      "Plovdiv",
-      "Razgrad",
-      "Ruse",
-      "Shumen",
-      "Silistra",
-      "Sliven",
-      "Smolyan",
-      "Sofia",
-      "Sofia City",
-      "Stara Zagora",
-      "Targovishte",
-      "Varna",
-      "Veliko Tarnovo",
-      "Vidin",
-      "Vratsa"
-    ],
-  },
-  {
-    id: 79,
-    country: "Burkina Faso",
-    states: [
-      "Boucle du Mouhoun",
-      "Cascades",
-      "Centre",
-      "Centre-East",
-      "Centre-North",
-      "Centre-West",
-      "East",
-      "North",
-      "North-Central",
-      "North-East",
-      "Sahel",
-      "South",
-      "South-West"
-    ],
-  },
-  {
-    id: 80,
-    country: "Burundi",
-    states: [
-      "Bubanza",
-      "Bujumbura",
-      "Bujumbura Rural",
-      "Bururi",
-      "Cibitoke",
-      "Cankuzo",
-      "Gitega",
-      "Karuzi",
-      "Kayanza",
-      "Kirundo",
-      "Makamba",
-      "Muramvya",
-      "Muyinga",
-      "Mwaro",
-      "Ngozi",
-      "Rutana",
-      "Ruyigi"
-    ],
-  },
+    {
+      id: 71,
+      country: "Belarus",
+      states: ["Brest", "Gomel", "Grodno", "Minsk", "Mogilev", "Vitebsk"],
+    },
+    {
+      id: 72,
+      country: "Belize",
+      states: [
+        "Belize",
+        "Cayo",
+        "Corozal",
+        "Orange Walk",
+        "Stann Creek",
+        "Toledo",
+      ],
+    },
+    {
+      id: 73,
+      country: "Benin",
+      states: [
+        "Alibori",
+        "Atakora",
+        "Atlantique",
+        "Borgou",
+        "Collines",
+        "Donga",
+        "Kouffo",
+        "Littoral",
+        "Mono",
+        "Ouémé",
+        "Plateau",
+        "Zou",
+      ],
+    },
+    {
+      id: 74,
+      country: "Bolivia",
+      states: [
+        "Beni",
+        "Chuquisaca",
+        "Cochabamba",
+        "La Paz",
+        "Oruro",
+        "Pando",
+        "Potosí",
+        "Santa Cruz",
+        "Tarija",
+      ],
+    },
+    {
+      id: 75,
+      country: "Bosnia and Herzegovina",
+      states: [
+        "Federation of Bosnia and Herzegovina",
+        "Republika Srpska",
+        "Brčko District",
+      ],
+    },
+    {
+      id: 76,
+      country: "Botswana",
+      states: [
+        "Central",
+        "Gaborone",
+        "Ghanzi",
+        "Kgalagadi",
+        "Kgatleng",
+        "Kweneng",
+        "Ngamiland",
+        "North-East",
+        "South-East",
+        "Southern",
+      ],
+    },
+    {
+      id: 77,
+      country: "Brunei",
+      states: ["Brunei-Muara", "Belait", "Tutong", "Lumut"],
+    },
+    {
+      id: 78,
+      country: "Bulgaria",
+      states: [
+        "Blagoevgrad",
+        "Burgas",
+        "Dobrich",
+        "Gabrovo",
+        "Haskovo",
+        "Kardzhali",
+        "Kyustendil",
+        "Lovech",
+        "Montana",
+        "Pazardzhik",
+        "Pernik",
+        "Pleven",
+        "Plovdiv",
+        "Razgrad",
+        "Ruse",
+        "Shumen",
+        "Silistra",
+        "Sliven",
+        "Smolyan",
+        "Sofia",
+        "Sofia City",
+        "Stara Zagora",
+        "Targovishte",
+        "Varna",
+        "Veliko Tarnovo",
+        "Vidin",
+        "Vratsa",
+      ],
+    },
+    {
+      id: 79,
+      country: "Burkina Faso",
+      states: [
+        "Boucle du Mouhoun",
+        "Cascades",
+        "Centre",
+        "Centre-East",
+        "Centre-North",
+        "Centre-West",
+        "East",
+        "North",
+        "North-Central",
+        "North-East",
+        "Sahel",
+        "South",
+        "South-West",
+      ],
+    },
+    {
+      id: 80,
+      country: "Burundi",
+      states: [
+        "Bubanza",
+        "Bujumbura",
+        "Bujumbura Rural",
+        "Bururi",
+        "Cibitoke",
+        "Cankuzo",
+        "Gitega",
+        "Karuzi",
+        "Kayanza",
+        "Kirundo",
+        "Makamba",
+        "Muramvya",
+        "Muyinga",
+        "Mwaro",
+        "Ngozi",
+        "Rutana",
+        "Ruyigi",
+      ],
+    },
 
     // First 80 countries
 
@@ -1954,7 +1915,7 @@ const allCountryAPI = (req, res) => {
         "Santiago",
         "Santa Luzia",
         "São Nicolau",
-        "São Vicente"
+        "São Vicente",
       ],
     },
     {
@@ -1982,7 +1943,7 @@ const allCountryAPI = (req, res) => {
         "Sihanoukville",
         "Svay Rieng",
         "Takeo",
-        "Tboung Khmum"
+        "Tboung Khmum",
       ],
     },
     {
@@ -1996,7 +1957,7 @@ const allCountryAPI = (req, res) => {
         "North",
         "North West",
         "South",
-        "South West"
+        "South West",
       ],
     },
     {
@@ -2016,7 +1977,7 @@ const allCountryAPI = (req, res) => {
         "Ouham",
         "Ouham-Pende",
         "Sangha-Mbaéré",
-        "Vakaga"
+        "Vakaga",
       ],
     },
     {
@@ -2036,17 +1997,13 @@ const allCountryAPI = (req, res) => {
         "Sila",
         "Tandjilé",
         "Tibesti",
-        "Wadi Fira"
+        "Wadi Fira",
       ],
     },
     {
       id: 86,
       country: "Comoros",
-      states: [
-        "Anjouan",
-        "Grande Comore",
-        "Moheli"
-      ],
+      states: ["Anjouan", "Grande Comore", "Moheli"],
     },
     {
       id: 87,
@@ -2062,7 +2019,7 @@ const allCountryAPI = (req, res) => {
         "Niari",
         "Plateaux",
         "Pointe-Noire",
-        "Sangha"
+        "Sangha",
       ],
     },
     {
@@ -2075,7 +2032,7 @@ const allCountryAPI = (req, res) => {
         "Heredia",
         "Limón",
         "Puntarenas",
-        "San José"
+        "San José",
       ],
     },
     {
@@ -2101,7 +2058,7 @@ const allCountryAPI = (req, res) => {
         "Vukovar-Srijem",
         "Zadar",
         "Zagreb",
-        "Zagreb City"
+        "Zagreb City",
       ],
     },
     {
@@ -2119,7 +2076,7 @@ const allCountryAPI = (req, res) => {
         "Las Tunas",
         "Holguín",
         "Guantánamo",
-        "Santiago de Cuba"
+        "Santiago de Cuba",
       ],
     },
 
@@ -2134,7 +2091,7 @@ const allCountryAPI = (req, res) => {
         "Larnaca",
         "Limassol",
         "Nicosia",
-        "Paphos"
+        "Paphos",
       ],
     },
     {
@@ -2153,7 +2110,7 @@ const allCountryAPI = (req, res) => {
         "Olomouc",
         "Zlin",
         "South Moravian",
-        "North Moravian"
+        "North Moravian",
       ],
     },
     {
@@ -2165,7 +2122,7 @@ const allCountryAPI = (req, res) => {
         "Djibouti",
         "Arta",
         "Tadjourah",
-        "Obock"
+        "Obock",
       ],
     },
     {
@@ -2179,7 +2136,7 @@ const allCountryAPI = (req, res) => {
         "Saint Mark",
         "Saint Patrick",
         "Saint Paul",
-        "Saint David"
+        "Saint David",
       ],
     },
     {
@@ -2212,7 +2169,7 @@ const allCountryAPI = (req, res) => {
         "San Pedro de Macorís",
         "Santiago",
         "Santiago Rodríguez",
-        "Valverde"
+        "Valverde",
       ],
     },
     {
@@ -2231,7 +2188,7 @@ const allCountryAPI = (req, res) => {
         "Manatuto",
         "Manufahi",
         "Oecusse",
-        "Viqueque"
+        "Viqueque",
       ],
     },
     {
@@ -2244,7 +2201,7 @@ const allCountryAPI = (req, res) => {
         "Centro Sur",
         "Kie-Ntem",
         "Litoral",
-        "Wele-Nzas"
+        "Wele-Nzas",
       ],
     },
     {
@@ -2256,7 +2213,7 @@ const allCountryAPI = (req, res) => {
         "Debubawi Keyih Bahri",
         "Maekel",
         "Semien Keih Bahri",
-        "Southern Red Sea"
+        "Southern Red Sea",
       ],
     },
     {
@@ -2277,18 +2234,13 @@ const allCountryAPI = (req, res) => {
         "Tartu",
         "Valga",
         "Viljandi",
-        "Võru"
+        "Võru",
       ],
     },
     {
       id: 100,
-      country: "Eswatini (fmr. \"Swaziland\")",
-      states: [
-        "Hhohho",
-        "Lubombo",
-        "Manzini",
-        "Shiselweni"
-      ],
+      country: 'Eswatini (fmr. "Swaziland")',
+      states: ["Hhohho", "Lubombo", "Manzini", "Shiselweni"],
     },
 
     // First 100 countries
@@ -2302,7 +2254,7 @@ const allCountryAPI = (req, res) => {
         "Corozal District",
         "Orange Walk District",
         "Stann Creek District",
-        "Toledo District"
+        "Toledo District",
       ],
     },
     {
@@ -2312,7 +2264,7 @@ const allCountryAPI = (req, res) => {
         "Brunei-Muara",
         "Belait",
         "Tutong",
-        "Limbang" // Note: Limbang is administratively part of Malaysia but has cultural ties to Brunei.
+        "Limbang", // Note: Limbang is administratively part of Malaysia but has cultural ties to Brunei.
       ],
     },
     {
@@ -2326,7 +2278,7 @@ const allCountryAPI = (req, res) => {
         "Ogooué-Ivindo",
         "Ogooué-Lolo",
         "Ogooué-Maritime",
-        "Woleu-Ntem"
+        "Woleu-Ntem",
       ],
     },
     {
@@ -2354,7 +2306,7 @@ const allCountryAPI = (req, res) => {
         "Solalá",
         "Suchitepéquez",
         "Totonicapan",
-        "Zacapa"
+        "Zacapa",
       ],
     },
     {
@@ -2377,7 +2329,7 @@ const allCountryAPI = (req, res) => {
         "Ocotepeque",
         "Olancho",
         "Santa Bárbara",
-        "Yoro"
+        "Yoro",
       ],
     },
     {
@@ -2390,7 +2342,7 @@ const allCountryAPI = (req, res) => {
         "Norðurland Eystra",
         "Norðurland Vestra",
         "Suðurland",
-        "Suðurnes"
+        "Suðurnes",
       ],
     },
     {
@@ -2412,7 +2364,7 @@ const allCountryAPI = (req, res) => {
         "Xieng Khouang",
         "Vientiane",
         "Vientiane Prefecture",
-        "Borikhamxai"
+        "Borikhamxai",
       ],
     },
     {
@@ -2435,7 +2387,7 @@ const allCountryAPI = (req, res) => {
         "Ungheni",
         "Ialoveni",
         "Orhei",
-        "Ștefan Vodă"
+        "Ștefan Vodă",
       ],
     },
     {
@@ -2459,7 +2411,7 @@ const allCountryAPI = (req, res) => {
         "Töv",
         "Ulaanbaatar",
         "Uvs",
-        "Zavkhan"
+        "Zavkhan",
       ],
     },
     {
@@ -2473,7 +2425,7 @@ const allCountryAPI = (req, res) => {
         "Kayangel",
         "Koror",
         "Peleliu",
-        "Sonsorol"
+        "Sonsorol",
       ],
     },
 
@@ -2494,7 +2446,7 @@ const allCountryAPI = (req, res) => {
         "Los Santos",
         "Panamá",
         "Panamá Oeste",
-        "Veraguas"
+        "Veraguas",
       ],
     },
     {
@@ -2515,7 +2467,7 @@ const allCountryAPI = (req, res) => {
         "Ñeembucú",
         "Paraguarí",
         "Presidente Hayes",
-        "San Pedro"
+        "San Pedro",
       ],
     },
     {
@@ -2538,7 +2490,7 @@ const allCountryAPI = (req, res) => {
         "Southern Highlands",
         "West New Britain",
         "West Sepik",
-        "Western"
+        "Western",
       ],
     },
     {
@@ -2568,11 +2520,10 @@ const allCountryAPI = (req, res) => {
         "Nyeri",
         "Rubavu",
         "Rutsiro",
-        "Rutsiro",
         "Rulindo",
         "Rusizi",
         "Rwanda",
-        "Rwanda (District)"
+        "Rwanda (District)",
       ],
     },
     {
@@ -2586,7 +2537,7 @@ const allCountryAPI = (req, res) => {
         "Laborie",
         "Micoud",
         "Soufrière",
-        "Vieux Fort"
+        "Vieux Fort",
       ],
     },
     {
@@ -2598,14 +2549,13 @@ const allCountryAPI = (req, res) => {
         "Saint Andrew",
         "Saint David",
         "Saint George",
-        "Saint Patrick"
+        "Saint Patrick",
       ],
     },
     {
       id: 117,
       country: "Samoa",
       states: [
-        "Aiga-i-le-Tai",
         "Aiga-i-le-Tai",
         "Atua",
         "Fa’asaleleaga",
@@ -2615,7 +2565,7 @@ const allCountryAPI = (req, res) => {
         "Falealoto",
         "Faleata",
         "Fasitoo-Tai",
-        "Vaisigano"
+        "Vaisigano",
       ],
     },
     {
@@ -2629,7 +2579,7 @@ const allCountryAPI = (req, res) => {
         "Faetano",
         "Fiorentino",
         "Montegiardino",
-        "Serravalle"
+        "Serravalle",
       ],
     },
     {
@@ -2649,500 +2599,465 @@ const allCountryAPI = (req, res) => {
         "Mont Fleuri",
         "Port Glaud",
         "Saint Louis",
-        "Takamaka"
+        "Takamaka",
       ],
     },
     {
       id: 120,
       country: "Tonga",
-      states: [
-        "Ha'apai",
-        "Tongatapu",
-        "Vava'u",
-        "Niuas",
-        "'Eua"
-      ],
+      states: ["Ha'apai", "Tongatapu", "Vava'u", "Niuas", "'Eua"],
     },
-    
+
     // First 120 countries
 
-
-  {
-    id: 121,
-    country: "South Sudan",
-    states: [
-      "Central Equatoria",
-      "Eastern Equatoria",
-      "Jonglei",
-      "Lakes",
-      "Northern Bahr el Ghazal",
-      "Unity",
-      "Upper Nile",
-      "Warrap",
-      "Western Bahr el Ghazal",
-      "Western Equatoria"
-    ],
-  },
-  {
-    id: 122,
-    country: "Sudan",
-    states: [
-      "Abyei Area",
-      "Blue Nile",
-      "Central Darfur",
-      "East Darfur",
-      "Kassala",
-      "Khartoum",
-      "North Darfur",
-      "North Kordofan",
-      "Northern",
-      "Red Sea",
-      "South Darfur",
-      "South Kordofan",
-      "West Darfur",
-      "West Kordofan",
-      "White Nile"
-    ],
-  },
-  {
-    id: 123,
-    country: "Somalia",
-    states: [
-      "Awdal",
-      "Bakool",
-      "Banadir",
-      "Bari",
-      "Bay",
-      "Benaadir",
-      "Galgaduud",
-      "Gedo",
-      "Hiraan",
-      "Juba",
-      "Lower Juba",
-      "Lower Shabelle",
-      "Middle Juba",
-      "Middle Shabelle",
-      "Mudug",
-      "Nugaal",
-      "Sanaag",
-      "Sool",
-      "Woqooyi Galbeed"
-    ],
-  },
-  {
-    id: 124,
-    country: "Yemen",
-    states: [
-      "Abyan",
-      "Ad Dali'",
-      "Adan",
-      "Al Bayda",
-      "Al Hudaydah",
-      "Al Jawf",
-      "Al Mahrah",
-      "Al Mahwit",
-      "Amanat al Asimah",
-      "Dhamar",
-      "Hadramaut",
-      "Hajja",
-      "Ibb",
-      "Lahij",
-      "Marib",
-      "Raimah",
-      "Sana'a",
-      "Shabwa",
-      "Socotra",
-      "Ta'izz"
-    ],
-  },
-  {
-    id: 125,
-    country: "Libya",
-    states: [
-      "Ajdabiya",
-      "Al Bayda",
-      "Al Jabal al Akhdar",
-      "Al Jufra",
-      "Al Kufrah",
-      "Al Marqab",
-      "Al Wahat",
-      "Banghazi",
-      "Darnah",
-      "Jabal al Gharbi",
-      "Jufra",
-      "Murzuq",
-      "Sebha",
-      "Tripoli",
-      "Wadi al Shatii",
-      "Zawiya",
-      "Zliten"
-    ],
-  },
-  {
-    id: 126,
-    country: "Mali",
-    states: [
-      "Bamako",
-      "Gao",
-      "Kayes",
-      "Kidal",
-      "Koulikoro",
-      "Mopti",
-      "Ségou",
-      "Sikasso",
-      "Tombouctou"
-    ],
-  },
-  {
-    id: 127,
-    country: "Mauritania",
-    states: [
-      "Adrar",
-      "Assaba",
-      "Brakna",
-      "Gorgol",
-      "Guidimaka",
-      "Tagant",
-      "Tiris Zemmour",
-      "Trarza",
-      "Nouakchott",
-      "Nouadhibou"
-    ],
-  },
-  {
-    id: 128,
-    country: "Senegal",
-    states: [
-      "Dakar",
-      "Diourbel",
-      "Fatick",
-      "Kaolack",
-      "Kédougou",
-      "Kolda",
-      "Louga",
-      "Matam",
-      "Saint-Louis",
-      "Tambacounda",
-      "Thiès",
-      "Ziguinchor"
-    ],
-  },
-  {
-    id: 129,
-    country: "Ghana",
-    states: [
-      "Ashanti",
-      "Brong-Ahafo",
-      "Central",
-      "Eastern",
-      "Greater Accra",
-      "Northern",
-      "Upper East",
-      "Upper West",
-      "Western",
-      "Western North"
-    ],
-  },
-  {
-    id: 130,
-    country: "Ivory Coast",
-    states: [
-      "Abidjan",
-      "Bas-Sassandra",
-      "Comoé",
-      "Denguélé",
-      "Gôh-Djiboua",
-      "Lacs",
-      "Lagunes",
-      "Montagnes",
-      "Sassandra-Marahoué",
-      "Vallée du Bandama",
-      "Woroba",
-      "Zanzan"
-    ],
-  },
+    {
+      id: 121,
+      country: "South Sudan",
+      states: [
+        "Central Equatoria",
+        "Eastern Equatoria",
+        "Jonglei",
+        "Lakes",
+        "Northern Bahr el Ghazal",
+        "Unity",
+        "Upper Nile",
+        "Warrap",
+        "Western Bahr el Ghazal",
+        "Western Equatoria",
+      ],
+    },
+    {
+      id: 122,
+      country: "Sudan",
+      states: [
+        "Abyei Area",
+        "Blue Nile",
+        "Central Darfur",
+        "East Darfur",
+        "Kassala",
+        "Khartoum",
+        "North Darfur",
+        "North Kordofan",
+        "Northern",
+        "Red Sea",
+        "South Darfur",
+        "South Kordofan",
+        "West Darfur",
+        "West Kordofan",
+        "White Nile",
+      ],
+    },
+    {
+      id: 123,
+      country: "Somalia",
+      states: [
+        "Awdal",
+        "Bakool",
+        "Banadir",
+        "Bari",
+        "Bay",
+        "Benaadir",
+        "Galgaduud",
+        "Gedo",
+        "Hiraan",
+        "Juba",
+        "Lower Juba",
+        "Lower Shabelle",
+        "Middle Juba",
+        "Middle Shabelle",
+        "Mudug",
+        "Nugaal",
+        "Sanaag",
+        "Sool",
+        "Woqooyi Galbeed",
+      ],
+    },
+    {
+      id: 124,
+      country: "Yemen",
+      states: [
+        "Abyan",
+        "Ad Dali'",
+        "Adan",
+        "Al Bayda",
+        "Al Hudaydah",
+        "Al Jawf",
+        "Al Mahrah",
+        "Al Mahwit",
+        "Amanat al Asimah",
+        "Dhamar",
+        "Hadramaut",
+        "Hajja",
+        "Ibb",
+        "Lahij",
+        "Marib",
+        "Raimah",
+        "Sana'a",
+        "Shabwa",
+        "Socotra",
+        "Ta'izz",
+      ],
+    },
+    {
+      id: 125,
+      country: "Libya",
+      states: [
+        "Ajdabiya",
+        "Al Bayda",
+        "Al Jabal al Akhdar",
+        "Al Jufra",
+        "Al Kufrah",
+        "Al Marqab",
+        "Al Wahat",
+        "Banghazi",
+        "Darnah",
+        "Jabal al Gharbi",
+        "Jufra",
+        "Murzuq",
+        "Sebha",
+        "Tripoli",
+        "Wadi al Shatii",
+        "Zawiya",
+        "Zliten",
+      ],
+    },
+    {
+      id: 126,
+      country: "Mali",
+      states: [
+        "Bamako",
+        "Gao",
+        "Kayes",
+        "Kidal",
+        "Koulikoro",
+        "Mopti",
+        "Ségou",
+        "Sikasso",
+        "Tombouctou",
+      ],
+    },
+    {
+      id: 127,
+      country: "Mauritania",
+      states: [
+        "Adrar",
+        "Assaba",
+        "Brakna",
+        "Gorgol",
+        "Guidimaka",
+        "Tagant",
+        "Tiris Zemmour",
+        "Trarza",
+        "Nouakchott",
+        "Nouadhibou",
+      ],
+    },
+    {
+      id: 128,
+      country: "Senegal",
+      states: [
+        "Dakar",
+        "Diourbel",
+        "Fatick",
+        "Kaolack",
+        "Kédougou",
+        "Kolda",
+        "Louga",
+        "Matam",
+        "Saint-Louis",
+        "Tambacounda",
+        "Thiès",
+        "Ziguinchor",
+      ],
+    },
+    {
+      id: 129,
+      country: "Ghana",
+      states: [
+        "Ashanti",
+        "Brong-Ahafo",
+        "Central",
+        "Eastern",
+        "Greater Accra",
+        "Northern",
+        "Upper East",
+        "Upper West",
+        "Western",
+        "Western North",
+      ],
+    },
+    {
+      id: 130,
+      country: "Ivory Coast",
+      states: [
+        "Abidjan",
+        "Bas-Sassandra",
+        "Comoé",
+        "Denguélé",
+        "Gôh-Djiboua",
+        "Lacs",
+        "Lagunes",
+        "Montagnes",
+        "Sassandra-Marahoué",
+        "Vallée du Bandama",
+        "Woroba",
+        "Zanzan",
+      ],
+    },
 
     // First 130 countries
 
-
-  {
-    id: 131,
-    country: "Togo",
-    states: [
-      "Centrale",
-      "Kara",
-      "Maritime",
-      "Plateaux",
-      "Savanes"
-    ],
-  },
-  {
-    id: 132,
-    country: "Sierra Leone",
-    states: [
-      "Eastern Province",
-      "Northern Province",
-      "Southern Province",
-      "Western Area"
-    ],
-  },
-  {
-    id: 133,
-    country: "Liberia",
-    states: [
-      "Bong",
-      "Bomi",
-      "Bong",
-      "Gbarpolu",
-      "Grand Bassa",
-      "Grand Cape Mount",
-      "Grand Gedeh",
-      "Grand Kru",
-      "Lofa",
-      "Margibi",
-      "Montserrado",
-      "Nimba",
-      "River Cess",
-      "River Gee",
-      "Sinoe"
-    ],
-  },
-  {
-    id: 134,
-    country: "Niger",
-    states: [
-      "Agadez",
-      "Diffa",
-      "Dosso",
-      "Maradi",
-      "Niamey",
-      "Tahoua",
-      "Tillabéri",
-      "Zinder"
-    ],
-  },
-  {
-    id: 135,
-    country: "Guinea",
-    states: [
-      "Boké",
-      "Conakry",
-      "Faranah",
-      "Kankan",
-      "Kindia",
-      "Labé",
-      "Mamou",
-      "Nzérékoré"
-    ],
-  },
-  {
-    id: 136,
-    country: "Malawi",
-    states: [
-      "Blantyre",
-      "Central Region",
-      "Lilongwe",
-      "Machinga",
-      "Mangochi",
-      "Mzuzu",
-      "Northern Region",
-      "Southern Region",
-      "Zomba"
-    ],
-  },
-  {
-    id: 137,
-    country: "Mozambique",
-    states: [
-      "Cabo Delgado",
-      "Gaza",
-      "Inhambane",
-      "Manica",
-      "Maputo",
-      "Nampula",
-      "Niassa",
-      "Sofala",
-      "Tete",
-      "Zambézia"
-    ],
-  },
-  {
-    id: 138,
-    country: "Zambia",
-    states: [
-      "Central",
-      "Copperbelt",
-      "Eastern",
-      "Luapula",
-      "Lusaka",
-      "Muchinga",
-      "Northern",
-      "North-Western",
-      "Southern",
-      "Western"
-    ],
-  },
-  {
-    id: 139,
-    country: "Zimbabwe",
-    states: [
-      "Bulawayo",
-      "Harare",
-      "Manicaland",
-      "Mashonaland Central",
-      "Mashonaland East",
-      "Mashonaland West",
-      "Masvingo",
-      "Midlands",
-      "Matabeleland North",
-      "Matabeleland South"
-    ],
-  },
-  {
-    id: 140,
-    country: "Lesotho",
-    states: [
-      "Berea",
-      "Butha-Buthe",
-      "Leribe",
-      "Mafeteng",
-      "Maseru",
-      "Mohale's Hoek",
-      "Mokhotlong",
-      "Qacha's Nek",
-      "Quthing",
-      "Thaba-Tseka"
-    ],
-  },
+    {
+      id: 131,
+      country: "Togo",
+      states: ["Centrale", "Kara", "Maritime", "Plateaux", "Savanes"],
+    },
+    {
+      id: 132,
+      country: "Sierra Leone",
+      states: [
+        "Eastern Province",
+        "Northern Province",
+        "Southern Province",
+        "Western Area",
+      ],
+    },
+    {
+      id: 133,
+      country: "Liberia",
+      states: [
+        "Bong",
+        "Bomi",
+        "Gbarpolu",
+        "Grand Bassa",
+        "Grand Cape Mount",
+        "Grand Gedeh",
+        "Grand Kru",
+        "Lofa",
+        "Margibi",
+        "Montserrado",
+        "Nimba",
+        "River Cess",
+        "River Gee",
+        "Sinoe",
+      ],
+    },
+    {
+      id: 134,
+      country: "Niger",
+      states: [
+        "Agadez",
+        "Diffa",
+        "Dosso",
+        "Maradi",
+        "Niamey",
+        "Tahoua",
+        "Tillabéri",
+        "Zinder",
+      ],
+    },
+    {
+      id: 135,
+      country: "Guinea",
+      states: [
+        "Boké",
+        "Conakry",
+        "Faranah",
+        "Kankan",
+        "Kindia",
+        "Labé",
+        "Mamou",
+        "Nzérékoré",
+      ],
+    },
+    {
+      id: 136,
+      country: "Malawi",
+      states: [
+        "Blantyre",
+        "Central Region",
+        "Lilongwe",
+        "Machinga",
+        "Mangochi",
+        "Mzuzu",
+        "Northern Region",
+        "Southern Region",
+        "Zomba",
+      ],
+    },
+    {
+      id: 137,
+      country: "Mozambique",
+      states: [
+        "Cabo Delgado",
+        "Gaza",
+        "Inhambane",
+        "Manica",
+        "Maputo",
+        "Nampula",
+        "Niassa",
+        "Sofala",
+        "Tete",
+        "Zambézia",
+      ],
+    },
+    {
+      id: 138,
+      country: "Zambia",
+      states: [
+        "Central",
+        "Copperbelt",
+        "Eastern",
+        "Luapula",
+        "Lusaka",
+        "Muchinga",
+        "Northern",
+        "North-Western",
+        "Southern",
+        "Western",
+      ],
+    },
+    {
+      id: 139,
+      country: "Zimbabwe",
+      states: [
+        "Bulawayo",
+        "Harare",
+        "Manicaland",
+        "Mashonaland Central",
+        "Mashonaland East",
+        "Mashonaland West",
+        "Masvingo",
+        "Midlands",
+        "Matabeleland North",
+        "Matabeleland South",
+      ],
+    },
+    {
+      id: 140,
+      country: "Lesotho",
+      states: [
+        "Berea",
+        "Butha-Buthe",
+        "Leribe",
+        "Mafeteng",
+        "Maseru",
+        "Mohale's Hoek",
+        "Mokhotlong",
+        "Qacha's Nek",
+        "Quthing",
+        "Thaba-Tseka",
+      ],
+    },
 
     // First 140 countries
 
-  {
-    id: 141,
-    country: "Mauritius",
-    states: [
-      "Black River",
-      "Flacq",
-      "Grand Port",
-      "Moka",
-      "Pamplemousses",
-      "Plaines Wilhems",
-      "Port Louis",
-      "Rivière du Rempart",
-      "Rodrigues"
-    ],
-  },
-  {
-    id: 142,
-    country: "Grenada",
-    states: [
-      "Carriacou and Petite Martinique",
-      "Saint Andrew",
-      "Saint David",
-      "Saint George",
-      "Saint John",
-      "Saint Mark",
-      "Saint Patrick"
-    ],
-  },
-  {
-    id: 143,
-    country: "Solomon Islands",
-    states: [
-      "Choiseul",
-      "Central",
-      "Guadalcanal",
-      "Honiara",
-      "Isabel",
-      "Makira-Ulawa",
-      "Malaita",
-      "Rennell and Bellona",
-      "Temotu",
-      "Western"
-    ],
-  },
-  {
-    id: 144,
-    country: "Vanuatu",
-    states: [
-      "Efate",
-      "Malampa",
-     
-
- "Penama",
-      "Sanma",
-      "Shefa",
-      "Tafea"
-    ],
-  },
-  {
-    id: 145,
-    country: "Liechtenstein",
-    states: [
-      "Eschen",
-      "Gamprin",
-      "Mauren",
-      "Nendeln",
-      "Schaan",
-      "Schellenberg",
-      "Ruggell",
-      "Vaduz",
-      "Balzers",
-      "Planken"
-    ],
-  },
-  {
-    id: 146,
-    country: "Monaco",
-    states: [
-      "Monaco-Ville",
-      "Monte Carlo",
-      "La Condamine",
-      "Moneghetti",
-      "Fontvieille",
-      "Les Révoires",
-      "Monte Carlo"
-    ],
-  },
-  {
-    id: 147,
-    country: "Vatican City (Holy See)",
-    states: [
-      "Vatican City"
-    ],
-  },
-  {
-    id: 148,
-    country: "Western Sahara (Disputed status)",
-    states: [
-      "Aousserd",
-      "Boujdour",
-      "Dakhla",
-      "El Ayoun",
-      "Smara"
-    ],
-  },
-  {
-    id: 149,
-    country: "New Caledonia (Special Collectivity of France)",
-    states: [
-      "Lifou",
-      "Maré",
-      "Ouvéa",
-      "Grande Terre",
-      "Îles Loyauté",
-      "Île des Pins"
-    ],
-  },
+    {
+      id: 141,
+      country: "Mauritius",
+      states: [
+        "Black River",
+        "Flacq",
+        "Grand Port",
+        "Moka",
+        "Pamplemousses",
+        "Plaines Wilhems",
+        "Port Louis",
+        "Rivière du Rempart",
+        "Rodrigues",
+      ],
+    },
+    {
+      id: 142,
+      country: "Grenada",
+      states: [
+        "Carriacou and Petite Martinique",
+        "Saint Andrew",
+        "Saint David",
+        "Saint George",
+        "Saint John",
+        "Saint Mark",
+        "Saint Patrick",
+      ],
+    },
+    {
+      id: 143,
+      country: "Solomon Islands",
+      states: [
+        "Choiseul",
+        "Central",
+        "Guadalcanal",
+        "Honiara",
+        "Isabel",
+        "Makira-Ulawa",
+        "Malaita",
+        "Rennell and Bellona",
+        "Temotu",
+        "Western",
+      ],
+    },
+    {
+      id: 144,
+      country: "Vanuatu",
+      states: ["Efate", "Malampa", "Penama", "Sanma", "Shefa", "Tafea"],
+    },
+    {
+      id: 145,
+      country: "Liechtenstein",
+      states: [
+        "Eschen",
+        "Gamprin",
+        "Mauren",
+        "Nendeln",
+        "Schaan",
+        "Schellenberg",
+        "Ruggell",
+        "Vaduz",
+        "Balzers",
+        "Planken",
+      ],
+    },
+    {
+      id: 146,
+      country: "Monaco",
+      states: [
+        "Monaco-Ville",
+        "Monte Carlo",
+        "La Condamine",
+        "Moneghetti",
+        "Fontvieille",
+        "Les Révoires",
+        "Monte Carlo",
+      ],
+    },
+    {
+      id: 147,
+      country: "Vatican City (Holy See)",
+      states: ["Vatican City"],
+    },
+    {
+      id: 148,
+      country: "Western Sahara (Disputed status)",
+      states: ["Aousserd", "Boujdour", "Dakhla", "El Ayoun", "Smara"],
+    },
+    {
+      id: 149,
+      country: "New Caledonia (Special Collectivity of France)",
+      states: [
+        "Lifou",
+        "Maré",
+        "Ouvéa",
+        "Grande Terre",
+        "Îles Loyauté",
+        "Île des Pins",
+      ],
+    },
 
     // First 150 countries
   ];
 
   res.json(allCountries);
 };
-
-
-
 
 const allCountryDialingCode = (req, res) => {
   const allCountries = [
