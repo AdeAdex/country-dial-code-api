@@ -16,21 +16,21 @@ const transporter = nodemailer.createTransport({
 const apiKeyRequests = new Map();
 
 // Function to send email notification
-const sendNotification = async (apiKey, name) => {
-  const mailOptions = {
-    from: process.env.EMAIL_USER,
-    to: process.env.EMAIL_USER, // Replace with the email you want to notify
-    subject: 'API Key Access Notification',
-    text: `A request was made with the following:\nAPI key: ${apiKey}\nName: ${name}`,
-  };
+// const sendNotification = async (apiKey, name) => {
+//   const mailOptions = {
+//     from: process.env.EMAIL_USER,
+//     to: process.env.EMAIL_USER, // Replace with the email you want to notify
+//     subject: 'API Key Access Notification',
+//     text: `A request was made with the following:\nAPI key: ${apiKey}\nName: ${name}`,
+//   };
 
-  try {
-    await transporter.sendMail(mailOptions);
-    console.log('Notification sent successfully');
-  } catch (error) {
-    console.error('Error sending notification:', error.message);
-  }
-};
+//   try {
+//     await transporter.sendMail(mailOptions);
+//     console.log('Notification sent successfully');
+//   } catch (error) {
+//     console.error('Error sending notification:', error.message);
+//   }
+// };
 
 const checkApiKey = async (req, res, next) => {
   const apiKey = req.headers.authorization?.split(" ")[1];
@@ -54,7 +54,7 @@ const checkApiKey = async (req, res, next) => {
         apiKeyRequests.set(apiKey, { count: 1 });
 
         // Send notification email
-        await sendNotification(apiKey, name);
+        // await sendNotification(apiKey, name);
       } else {
         const apiKeyData = apiKeyRequests.get(apiKey);
         apiKeyData.count += 1;
